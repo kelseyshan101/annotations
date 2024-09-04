@@ -148,3 +148,4 @@ class InputOutputInfoGeneratorInterface(Generator_Interface, ABC):
     # only used for xargs
     def set_all_operands_as_arg_string(self):
         self.input_output_info.set_all_operands_as_arg_string()
+
